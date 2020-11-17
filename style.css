@@ -1,0 +1,92 @@
+.one{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.contact{
+    display: inline-block;
+    background-color: lightskyblue;
+    min-width: 10%;
+    max-width: 100%;
+}
+img{
+    min-width: 5%;
+    max-width: 100%;
+}
+.two{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    background-color: orchid;
+    font-size: large;
+    font-style: italic;
+}
+/* .card{
+    display: inline-block;
+    min-width: 10%;
+    max-width: 100%;
+} */
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 2px 4px 5px gray !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+h4{
+    margin-left: 20px;
+}
+ 
+@media screen and (max-width: 400px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+
+.maincontact{
+    display: flex;
+    flex-direction: row;
+}
+.mainentry{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    
+}
+.entry1,.entry2{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 20px;
+    /* width: 30%; */
+    box-shadow: 5px 9px 8px gray !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    text-align: center;
+    padding: 8%;
+    
+}
+@media screen and (max-width: 250px){
+    .card1,.card2,.card3{
+        width: 25%;
+    }
+}
+.row{
+    margin-top: 5%;
+}
